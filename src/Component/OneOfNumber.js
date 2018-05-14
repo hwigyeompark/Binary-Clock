@@ -15,7 +15,9 @@ class OneOfNumber extends Component{
     }
     render(){
         return(
-          <div></div>
+          <span>
+              {this.state.shape}
+          </span>
         );
     }
 }
