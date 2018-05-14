@@ -28,7 +28,12 @@ class BinaryClock extends Component{
     render(){
         return(
             <div>
-                <Number/>
+                <Number value = {this.state.hour1} />
+                <Number value = {this.state.hour2} />
+                <Number value = {this.state.minute1} />
+                <Number value = {this.state.minute2} />
+                <Number value = {this.state.second1} />
+                <Number value = {this.state.second2} />
             </div>
         );
     }
