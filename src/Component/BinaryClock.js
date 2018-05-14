@@ -7,3 +7,4 @@ class BinaryClock extends Component{
         );
     }
 }
+export default BinaryClock;
